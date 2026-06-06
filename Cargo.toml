@@ -1,0 +1,12 @@
+[package]
+name = "coalition-game"
+version = "0.1.0"
+edition = "2024"
+description = "Cooperative game theory: Shapley value, core, nucleolus, and stable coalition analysis"
+license = "MIT"
+repository = "https://github.com/SuperInstance/coalition-game"
+keywords = ["game-theory", "shapley", "coalition", "cooperative", "nucleolus"]
+categories = ["mathematics", "science"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
